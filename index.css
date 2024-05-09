@@ -59,6 +59,5 @@ body {
     #menu {
         flex-direction: column;
         width: 8vmax;
-        height: auto;    /* sobreescriu la declaració height: 8vmax; */
     }
 }
