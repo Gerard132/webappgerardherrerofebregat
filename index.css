@@ -141,9 +141,7 @@ body {
     cursor: pointer;
 }
 @media (orientation: landscape) {
-    #seccio_5 {
-        flex-direction: row;
-    }
+    
     #seccio_2 {
         flex-direction: row;
     }
@@ -161,6 +159,9 @@ body {
     }
     #foto_gran {
         transform: rotate(-90deg);    /* gir de 90 graus correponent al canvi d'orientació */
+    }
+    #seccio_5 {
+        flex-direction: row;
     }
 }
 #webcam-container {
