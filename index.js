@@ -41,3 +41,25 @@ for (let i in continent) {    // per cada element de la llista, amb índex i
    llistat += " ";
    llistat += continent[i];
 }    // resultat: llistat = "Nom dels continents: Europa Àsia Amèrica Àfrica Oceania"
+let temps = 0;
+function incrementa(instant, durada) {    // definició de la funció incrementa amb dos paràmetres
+    temps += instant;
+    temps += durada;
+}
+incrementa(10, 5);    // crida a la funció amb els arguments instant = 10 i durada = 5. Resultat: temps = 15
+function incrementa(instant, durada) {    // definició de la funció incrementa amb dos paràmetres
+    instant += durada;
+    return instant;    // instrucció de retorn del resultat (15)
+}
+let temps = incrementa(10, 5)    // crida a la funció amb els arguments instant = 10 i durada = 5. Resultat: temps = 15
+function (a) {    // definició convencional
+  return a + 100;
+}
+
+a => a + 100;    // definició mitjançant "procediment fletxa"
+async function saluda() {
+    return "Hola";
+}
+saluda().then(
+  salutacio => salutacio + ". Bon dia"
+);
