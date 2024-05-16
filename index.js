@@ -63,3 +63,10 @@ async function saluda() {
 saluda().then(
   salutacio => salutacio + ". Bon dia"
 );
+document.getElementById("splash").style.display = "none";
+document.getElementById("menu").setAttribute("nom", "Menú");
+document.getElementById("superior").classList.add("ocult");
+document.getElementById("superior").classList.remove("ocult");
+document.getElementById("botó").addEventListener("click", function() {
+    // espai per al codi que s'executa quan es fa clic sobre el botó    
+});
