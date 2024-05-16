@@ -70,3 +70,4 @@ document.getElementById("superior").classList.remove("ocult");
 document.getElementById("botó").addEventListener("click", function() {
     // espai per al codi que s'executa quan es fa clic sobre el botó    
 });
+<button onclick="nou_usuari()">Nou usuari</button>
