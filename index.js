@@ -71,7 +71,7 @@ document.getElementById("botó").addEventListener("click", function() {
     // espai per al codi que s'executa quan es fa clic sobre el botó    
 });
 <button onclick="nou_usuari()">Nou usuari</button>
-let scriptURL =    // aquí s'ha d'escriure l'URL del script
+let scriptURL =  "https://script.google.com/macros/s/AKfycbw9vZA9h8n-uhY7mEhsl5N-5H_H4vuvFjwv0LatqPgIz5X4-O6JcI9ruiEEIUF9t6Oa/exec"  // aquí s'ha d'escriure l'URL del script
 let consulta = scriptURL + "?query=select&where=Tipus&is=Turisme";
     fetch(consulta)
         .then((resposta) => {    // primera "promesa"
