@@ -26,7 +26,7 @@ body {
     display: none;    /* les seccions s'inicien ocultes, excepte la primera */
 }
 
-#menu {
+#seccio_1 {
     height: 8vmax;    /* alçària d'un 8% respecte l'alçària de la pantalla */
 }
 #menu {
