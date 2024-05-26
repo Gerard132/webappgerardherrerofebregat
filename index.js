@@ -109,15 +109,11 @@ window.onload = () => {
             }
         }
     });
-var map = L.map('map').setView([51.505, -0.09], 13);
+map = L.map('map').setView([51.505, -0.09], 13);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
-
-L.marker([51.5, -0.09]).addTo(map)
-    .bindPopup('A pretty CSS popup.<br> Easily customizable.')
-    .openPopup();
 function desa_foto() {
     let nou_registre = {    // contingut del nou registre de la base de dades
         Usuari: usuari,    // nom d'usuari
